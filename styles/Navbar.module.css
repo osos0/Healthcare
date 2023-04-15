@@ -1,0 +1,54 @@
+.navo {
+  background-color: white;
+}
+
+.navo div ul li:nth-child(n + 2) a {
+  color: var(--main-color);
+  font-weight: bold;
+}
+
+.navo div ul li:first-child a {
+  color: var(--second-color);
+  font-weight: bold;
+}
+
+.navo div ul li a {
+  letter-spacing: 1px;
+  width: max-content;
+  font-size: 14px;
+  font-family: cursive;
+}
+
+.navo div ul li a:hover {
+  transition: 600s;
+  text-decoration: line-through !important ;
+}
+
+.navo div ul li a:hover {
+  color: var(--second-color);
+}
+
+.navflex {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  text-align: start;
+  /* border: 1px solid red; */
+}
+
+.navo div ul li button span {
+  color: var(--main-color);
+  padding: 5px;
+  font-weight: bolder;
+  text-align: center;
+  background-color: white;
+  display: inline;
+}
+
+@media only screen and (max-width: 992px) {
+  .navflex {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+  }
+}
