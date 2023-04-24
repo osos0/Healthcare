@@ -1,7 +1,12 @@
 .navo {
   background-color: white;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 40%);
 }
 
+.navo div ul li {
+  display: flex;
+  align-items: center;
+}
 .navo div ul li:nth-child(n + 2) a {
   color: var(--main-color);
   font-weight: bold;
@@ -16,9 +21,21 @@
   letter-spacing: 1px;
   width: max-content;
   font-size: 14px;
-  font-family: cursive;
 }
 
+.phoneCon {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+}
+
+.navo div ul li a svg {
+  background-color: rgb(212, 212, 228);
+  border-radius: 2px;
+  font-size: 20px;
+  padding: 4px;
+  margin: 5px;
+}
 .navo div ul li a:hover {
   transition: 600s;
   text-decoration: line-through !important ;

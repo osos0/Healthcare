@@ -1,0 +1,104 @@
+.mainHeader {
+  margin: 50px auto;
+}
+
+.RigthHeader {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.RigthHeader .Doctore {
+  width: 100%;
+  /* width: 430px; */
+  height: auto;
+  animation: mover 3s infinite alternate;
+  /* transition: 3s ease all; */
+}
+
+.zigzag {
+  position: absolute;
+  bottom: 0;
+  z-index: -1;
+  animation: mover 2s infinite alternate;
+}
+
+@keyframes mover {
+  0% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+.RigthHeader svg {
+  color: var(--main-color);
+  position: absolute;
+  top: 90px;
+  left: 20px;
+  z-index: -1;
+  font-size: 50px;
+  opacity: 30%;
+  border: 2px solid var(--main-Dark-color);
+  padding: 2px;
+  animation: movericon 2s infinite alternate;
+}
+
+@keyframes movericon {
+  0% {
+    transform: translateY(0px) rotate(30deg);
+  }
+  100% {
+    transform: translateY(-10px) rotate(30deg);
+  }
+}
+
+.leftHeader {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  position: relative;
+}
+
+.leftHeader h2 {
+  /* font-size: 60px; */
+  font-weight: bolder;
+  margin: 20px 0;
+}
+
+.leftHeader h4 {
+  color: var(--main-color);
+}
+
+.leftHeader img {
+  max-width: 100%;
+  position: absolute;
+  bottom: 0;
+  right: 20px;
+  animation: mover 2s infinite alternate;
+}
+
+.square {
+  position: absolute;
+  top: 0;
+  left: 0px;
+  z-index: -1;
+}
+
+.balon {
+  position: absolute;
+  top: 0;
+  right: 0px;
+  z-index: -1;
+}
+
+@media only screen and (max-width: 992px) {
+  .leftHeader img {
+    display: none;
+  }
+}

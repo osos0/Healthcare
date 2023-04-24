@@ -1,0 +1,88 @@
+.mobileMain {
+  background-color: #f5f5fc !important;
+  /* f5f5fc */
+}
+
+.MyForm {
+  background-color: white;
+  margin: 20px auto;
+  padding: 30px 15px;
+  border: 1px solid transparent;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 500px;
+  width: 90%;
+  position: relative;
+}
+
+.mobileRight {
+  height: 500px;
+  width: 95%;
+  position: relative;
+}
+
+.Phoneimg {
+  max-width: 100%;
+  max-height: 500px;
+}
+
+.womanImg {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: 350px;
+  width: 40%;
+  animation: moverwoman 2s infinite alternate;
+}
+
+@keyframes moverwoman {
+  0% {
+    transform: translateX(0px);
+  }
+  100% {
+    transform: translateX(-10px);
+  }
+}
+
+.chatImg,
+.checkImg,
+.settingImg,
+.mapImg {
+  height: auto;
+  max-width: 50px;
+  position: absolute;
+}
+
+.chatImg {
+  right: 10px;
+  top: 20%;
+  max-width: 80px !important;
+  animation: moverwoman 2s infinite alternate;
+}
+.checkImg {
+  left: 20px;
+  top: 40px;
+  animation: moverwoman 1600ms infinite alternate;
+}
+.settingImg {
+  right: 35%;
+  bottom: 20%;
+  animation: mapwoman 2s infinite alternate;
+}
+.mapImg {
+  left: 15%;
+  top: 50%;
+  animation: mapwoman 2s infinite alternate;
+}
+
+@keyframes mapwoman {
+  0% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(-15px);
+  }
+}

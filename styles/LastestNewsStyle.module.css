@@ -1,0 +1,76 @@
+.conOfBlogs {
+  border-radius: 20px;
+  padding: 20px;
+  border: 1px solid rgb(189, 189, 189);
+  margin: 10px auto;
+}
+
+.bigPic {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  padding-bottom: 20px;
+}
+
+.lastMain {
+  margin: 50px auto;
+}
+
+.dateCon {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.dateCon img {
+  height: 40px;
+  width: auto;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.mainp {
+  color: var(--main-Dark-color) !important;
+  font-size: auto;
+}
+
+.dateCon p {
+  color: var(--second-color);
+  margin: auto 5px;
+  font-size: 13px;
+}
+
+.dateCon :last-child {
+  display: flex;
+  align-items: center;
+}
+
+.dateCon :last-child :first-child {
+  margin: auto 10px;
+  color: var(--second-color);
+  font-size: 25px;
+}
+
+.Bluebtn {
+  background-color: white !important;
+  color: var(--main-Dark-color);
+  border: 1px solid var(--main-Dark-color);
+  transition: 500ms;
+}
+
+.Bluebtn span {
+  color: var(--main-color);
+  padding: 5px;
+  border-radius: 5px;
+  font-weight: bolder !important;
+  text-align: center;
+  background-color: var(--main-Dark-color);
+  display: inline;
+  margin-left: 5px;
+  font-size: 15px;
+}
+
+.Bluebtn:hover {
+  color: white !important;
+  background-color: var(--main-Dark-color) !important;
+}

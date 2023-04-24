@@ -1,7 +1,9 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: gray !important;
+  /* background-color: gray !important; */
+  font-family: cursive !important;
+  /* box-sizing: border-box; */
 }
 
 html {
@@ -10,10 +12,11 @@ html {
 
 :root {
   --main-color: #5559ce;
+  --main-Dark-color: #1f2278;
   --second-color: #f17732;
 }
 
-section,
+/* section,
 footer,
 header {
   width: 100%;
@@ -22,7 +25,7 @@ header {
   max-width: 100%;
   padding: 25px 0px;
   margin-top: 50px;
-}
+} */
 
 a {
   text-decoration: none !important;
@@ -40,7 +43,19 @@ li {
   list-style-type: none;
 }
 
-button {
+h4 {
+  color: var(--second-color) !important;
+  padding: 5px 5px;
+  font-weight: bold !important;
+  font-size: 15px !important;
+}
+
+h2 {
+  color: var(--main-Dark-color) !important;
+}
+
+.Bluebtn {
+  /* button { */
   background-color: var(--main-color);
   color: white;
   text-align: center;
@@ -48,9 +63,28 @@ button {
   height: max-content;
   padding: 5px 15px;
   border-radius: 10px !important;
-  border: var(--main-color) 1px solid;
+  border: transparent 1px solid;
   font-size: 14px !important;
   box-shadow: 0px 5px 20px 0px rgba(86, 90, 207, 50%);
+}
+
+button {
+  /* .Orangebigbtn { */
+  background-color: var(--second-color);
+  padding: 10px 30px;
+  border: 1px solid transparent;
+  width: max-content;
+  height: max-content;
+  border-radius: 10px !important;
+  color: white;
+  text-align: center;
+  font-size: 14px !important;
+  box-shadow: 0px 5px 20px 0px rgba(86, 90, 207, 50%);
+}
+
+button:hover {
+  opacity: 0.8;
+  transition: 300ms ease-in-out;
 }
 
 p {
@@ -59,9 +93,22 @@ p {
 
 input {
   box-sizing: border-box;
+  background-color: white;
+  outline: none;
   border: 1px;
   text-align: left;
   padding: 5px 15px;
-  color: black;
+  color: rgb(61, 61, 61);
   font-size: 15px;
+  border: 1px solid var(--main-Dark-color);
+  border-radius: 10px;
+  margin: 10px 0 !important;
+  width: 100%;
+}
+
+@media only screen and (max-width: 992px) {
+  /* .row {
+    padding-left: 15px;
+    padding-right: 5px;
+  } */
 }

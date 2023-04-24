@@ -3,6 +3,8 @@ import Link from "next/link";
 import navStyle from "../styles/Navbar.module.css";
 import Image from "next/image";
 import logoSample from "../public/Assets/logo.png";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faPhone } from "@fortawesome/free-solid-svg-icons";
 
 const Navbar = () => {
   return (
@@ -32,7 +34,7 @@ const Navbar = () => {
                 <Link
                   className={`nav-link ${navStyle.ora}`}
                   aria-current="page"
-                  href="#"
+                  href="/"
                 >
                   Home
                 </Link>
@@ -132,12 +134,17 @@ const Navbar = () => {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link " aria-current="page" href="#">
-                  Icon +(+01)999 888 777
+                <Link
+                  className={`nav-link ${navStyle.phoneCon}`}
+                  aria-current="page"
+                  href="#"
+                >
+                  <FontAwesomeIcon icon={faPhone} />
+                  <div> +(+01)999 888 777</div>
                 </Link>
               </li>
               <li className="nav-item">
-                <button>
+                <button className={`Bluebtn`}>
                   Contact Us <span>&gt;</span>
                 </button>
               </li>

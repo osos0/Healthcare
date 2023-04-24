@@ -1,0 +1,107 @@
+.WorkingMain {
+  padding: 50px 0;
+}
+
+.bigchild {
+  margin-bottom: 30px;
+}
+
+.Bluebtn span {
+  color: var(--main-color);
+  padding: 5px;
+  border-radius: 5px;
+  font-weight: bolder !important;
+  text-align: center;
+  background-color: white;
+  display: inline;
+}
+.Bluebtn2 span {
+  color: var(--main-color);
+  padding: 5px;
+  border-radius: 5px;
+  font-weight: bolder !important;
+  text-align: center;
+  background-color: white;
+  display: inline;
+}
+
+.childOne,
+.childTwo {
+  padding: 20px;
+  border-radius: 20px;
+  transition: 500ms ease-in-out;
+}
+
+.childTwo {
+  background-color: var(--second-color);
+  transform: translateY(-20px);
+}
+
+.childOne div {
+  color: rgb(238, 232, 228);
+  font-size: 80px;
+  font-weight: 900;
+  /* text-shadow: -5px -10px 0 var(--second-color); */
+
+  text-shadow: -5px -5px 0 var(--second-color), 2px -2px 0 var(--second-color),
+    -2px 2px 0 var(--second-color), 2px 2px 0 var(--second-color);
+}
+
+.childTwo div {
+  color: var(--second-color);
+  font-size: 80px;
+  font-weight: 900;
+  /* text-shadow: -5px -10px 0 var(--second-color); */
+
+  text-shadow: -5px -5px 0 white, 2px -2px 0 white, -2px 2px 0 white,
+    2px 2px 0 white;
+}
+
+.childOne button {
+  background-color: rgb(181, 181, 196);
+}
+.childTwo button {
+  background-color: white;
+  color: var(--second-color);
+}
+
+.childOne:hover .Bluebtn {
+  background-color: white;
+  color: var(--second-color);
+  box-shadow: 0px 4px 4px rgba(255, 255, 255, 20%);
+}
+.childTwo:hover .Bluebtn2 {
+  background-color: var(--second-color);
+  color: white;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 20%);
+}
+
+.childOne:hover h4 {
+  color: white !important;
+}
+.childTwo h4 {
+  color: white !important;
+}
+.childOne:hover h4 {
+  color: white !important;
+}
+.childTwo:hover h4 {
+  color: var(--second-color) !important;
+}
+
+.childOne:hover {
+  background-color: var(--second-color);
+}
+.childTwo:hover {
+  background-color: white;
+}
+
+@media only screen and (max-width: 992px) {
+  .childTwo {
+    transform: translateY(0);
+    margin: 10px 0;
+  }
+  .bigchild {
+    margin: 0%;
+  }
+}

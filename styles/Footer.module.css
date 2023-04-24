@@ -1,0 +1,62 @@
+.footerMain {
+  overflow: hidden;
+  display: flex;
+  background-color: #e6e7ff;
+  padding-top: 10px;
+}
+
+.ulCon {
+  margin: 20px 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ulCon li a img {
+  width: 30px;
+  height: 30px;
+}
+
+.myh2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.phoneCon {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.phoneCon svg {
+  color: white;
+  /* color: var(--main-Dark-color); */
+  background-color: var(--second-color);
+  font-size: 30px;
+  padding: 10px;
+  border-radius: 50% 50% 0 50%;
+  margin: 0 10px 10px 0;
+}
+
+.phoneCon :nth-child(2) :first-child {
+  color: var(--second-color);
+  font-size: 17px;
+  font-weight: bold;
+}
+.phoneCon :nth-child(2) :nth-child(2) {
+  color: var(--main-color);
+  font-size: 17px;
+  font-weight: bolder;
+  margin-bottom: 30px;
+}
+
+.footerMain div :nth-child(4) button {
+  width: 100%;
+}
+
+.copyp {
+  text-align: center;
+  padding-top: 10px;
+  border-top: 1px solid rgb(161, 161, 161) !important;
+}
