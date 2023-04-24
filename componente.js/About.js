@@ -1,14 +1,8 @@
 import AboutStyle from "../styles/About.module.css";
-import Image from "next/image";
-import Img1 from "../public/Assets/pic-1.jpg";
-import Img2 from "../public/Assets/pic-2.jpg";
-import Img3 from "../public/Assets/pic-3.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faAmbulance,
   faBed,
-  faCar,
-  faCross,
   faNotesMedical,
   faUserDoctor,
 } from "@fortawesome/free-solid-svg-icons";

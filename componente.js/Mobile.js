@@ -18,39 +18,55 @@ const Mobile = () => {
           >
             <form className={`${MobileStyle.MyForm}`}>
               <h2>Book Appointment</h2>
-              <select
-                className="form-select"
-                aria-label="Default select example"
-              >
-                <option selected>Select Department</option>
+              <select className="form-select" defaultValue="Select Department">
+                <option disabled>Select Department</option>
                 <option value="1">One</option>
                 <option value="2">Two</option>
                 <option value="3">Three</option>
               </select>
-              <select
-                className="form-select"
-                aria-label="Default select example"
-              >
-                <option selected>Select Doctore</option>
+              <select className="form-select" defaultValue="Select Doctor">
+                <option disabled>Select Doctor</option>
                 <option value="1">One</option>
                 <option value="2">Two</option>
                 <option value="3">Three</option>
               </select>
-
-              <input type="text" name="age" placeholder="Your Name" />
+              <input type="text" name="name" placeholder="Your Name" />
               <input type="text" name="age" placeholder="Your Age" />
-
-              <button type="">Appointment Now</button>
+              <button type="submit">Appointment Now</button>
             </form>
           </div>
           <div className="col-lg-6 col-md-6 col-sm-12">
             <div className={MobileStyle.mobileRight}>
-              <Image src={BlackPhone} className={`${MobileStyle.Phoneimg}`} />
-              <Image src={women} className={`${MobileStyle.womanImg}`} />
-              <Image src={chat} className={`${MobileStyle.chatImg}`} />
-              <Image src={check} className={`${MobileStyle.checkImg}`} />
-              <Image src={setting} className={`${MobileStyle.settingImg}`} />
-              <Image src={map} className={`${MobileStyle.mapImg}`} />
+              <Image
+                src={BlackPhone}
+                className={`${MobileStyle.Phoneimg}`}
+                alt="Phoneimg"
+              />
+              <Image
+                src={women}
+                className={`${MobileStyle.womanImg}`}
+                alt="womanImg"
+              />
+              <Image
+                src={chat}
+                className={`${MobileStyle.chatImg}`}
+                alt="chatImg"
+              />
+              <Image
+                src={check}
+                className={`${MobileStyle.checkImg}`}
+                alt="checkImg"
+              />
+              <Image
+                src={setting}
+                className={`${MobileStyle.settingImg}`}
+                alt="settingImg"
+              />
+              <Image
+                src={map}
+                className={`${MobileStyle.mapImg}`}
+                alt="mapImg"
+              />
             </div>
           </div>
         </div>

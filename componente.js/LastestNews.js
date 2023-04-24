@@ -24,11 +24,15 @@ const LastestNews = () => {
                 <div className={`col-11 ${LastestNewsStyle.conOfBlogs}`}>
                   <div>
                     <div>
-                      <Image src={Blog1} className={LastestNewsStyle.bigPic} />
+                      <Image
+                        src={Blog1}
+                        className={LastestNewsStyle.bigPic}
+                        alt="Blog1"
+                      />
                     </div>
                     <div className={`${LastestNewsStyle.dateCon}`}>
                       <div>
-                        <Image src={Doc1} />
+                        <Image src={Doc1} alt="Doc1" />
                       </div>
                       <p>Vino </p>
                       <div>
@@ -49,11 +53,15 @@ const LastestNews = () => {
                 <div className={`col-11 ${LastestNewsStyle.conOfBlogs}`}>
                   <div>
                     <div>
-                      <Image src={Blog2} className={LastestNewsStyle.bigPic} />
+                      <Image
+                        src={Blog2}
+                        className={LastestNewsStyle.bigPic}
+                        alt="Blog2"
+                      />
                     </div>
                     <div className={`${LastestNewsStyle.dateCon}`}>
                       <div>
-                        <Image src={Doc2} />
+                        <Image src={Doc2} alt="Doc2" />
                       </div>
                       <p>Victoria </p>
                       <div>
@@ -74,11 +82,15 @@ const LastestNews = () => {
                 <div className={`col-11 ${LastestNewsStyle.conOfBlogs}`}>
                   <div>
                     <div>
-                      <Image src={Blog3} className={LastestNewsStyle.bigPic} />
+                      <Image
+                        src={Blog3}
+                        className={LastestNewsStyle.bigPic}
+                        alt="Blog3"
+                      />
                     </div>
                     <div className={`${LastestNewsStyle.dateCon}`}>
                       <div>
-                        <Image src={Doc3} />
+                        <Image src={Doc3} alt="Doc3" />
                       </div>
                       <p>Chris </p>
                       <div>

@@ -3,9 +3,6 @@
 }
 
 .leftaboutStyle {
-  /* align-items: center; */
-  /* height: 700px; */
-  /* width: 100%; */
   padding: 10px;
   overflow: hidden;
   display: flex;
@@ -31,7 +28,6 @@
   background-size: cover;
   height: 80%;
   width: 80%;
-  /* margin: 0 10px 10px 0; */
   border-radius: 0 40px 40px 40px;
 }
 
@@ -49,7 +45,6 @@
   background-size: cover;
   height: 100%;
   width: 100%;
-  /* margin: 0 0 10px 10px; */
   border-radius: 40px 0 40px 40px;
 }
 
@@ -66,7 +61,6 @@
   background-size: cover;
   height: 65%;
   width: 65%;
-  /* margin: 10px 10px 0 0; */
   border-radius: 40px 40px 40px 0;
 }
 .childFour {
@@ -80,7 +74,6 @@
 .blueBigFram {
   height: 75%;
   width: 75%;
-  /* margin: 10px 0 0 10px; */
   border-radius: 40px 40px 0 40px;
   background-color: #e6e7ff;
   position: relative;
@@ -123,8 +116,6 @@
   transform: translate(-50%, 50%) rotate(45deg);
   z-index: 1;
 }
-
-/* ////////////////////////////////////////////// */
 
 .RightaboutStyle {
   display: flex;

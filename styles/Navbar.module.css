@@ -50,7 +50,6 @@
   justify-content: flex-end;
   align-items: center;
   text-align: start;
-  /* border: 1px solid red; */
 }
 
 .navo div ul li button span {
@@ -65,7 +64,7 @@
 @media only screen and (max-width: 992px) {
   .navflex {
     display: flex;
-    justify-content: start;
+    justify-content: flex-start;
     align-items: center;
   }
 }
